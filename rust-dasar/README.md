@@ -48,12 +48,22 @@ cd practice_rust
 cargo run
 ```
 
+**Distribution file:**
+
+```sh
+cargo build --release
+```
+
+**Unit test:**
+
+```sh
+cargo test function_name -- --exact
+```
+
 ## 🌱 Future Plans
 
-- Build small Rust applications
-- Explore WebAssembly and Rust
-- Learn async programming in Rust
-- Contribute to open-source Rust projects
+- If we use variable let = imutable
+- you can use let mut = mutable
 
 ## 🤝 Contributions
 
